@@ -1,5 +1,7 @@
 package main
 
+// Given an integer array nums sorted in non-decreasing order,
+// return an array of the squares of each number sorted in non-decreasing order.
 func sortedSquares(nums []int) []int {
 	size := len(nums)
 	response := make([]int, size)
